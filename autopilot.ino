@@ -3,7 +3,7 @@
 void setup() {
     DigiKeyboard.delay(1500); //1.5 SECOND DELAY BEFORE BEGINNING
     DigiKeyboard.sendKeyStroke(KEY_F10, MOD_SHIFT_LEFT); //F10 + SHIFT TO OPEN CMD
-    DigiKeyboard.delay(500);
+    DigiKeyboard.delay(1200);
     DigiKeyboard.println("copy d:\\wifi.xml wifi.xml"); //COPY WIFI PROFILE FROM USB TO INTERNAL STORAGE
     DigiKeyboard.delay(100);
     DigiKeyboard.sendKeyStroke(KEY_ENTER); //ENTER KEY
@@ -16,7 +16,7 @@ void setup() {
     DigiKeyboard.println("exit"); //EXIT CMD
     DigiKeyboard.delay(100);
     DigiKeyboard.sendKeyStroke(KEY_ENTER); //ENTER
-    DigiKeyboard.delay(100);
+    DigiKeyboard.delay(300);
     DigiKeyboard.sendKeyStroke(43); //TAB
     DigiKeyboard.delay(100);
     DigiKeyboard.sendKeyStroke(43); //TAB
