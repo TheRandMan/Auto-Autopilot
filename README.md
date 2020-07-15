@@ -7,7 +7,7 @@ Digispark ATtiny85 script to breeze through a wifi autopilot setup of Windows 10
 - USB flash drive for storing your wifi profile
 - We'll assume you have the Digispark ATtiny85 Arduino environment set up already
 - Only confirmed working on Windows 10 1909 (10.0.18363) and HP ProBook x360 G5 EE
-  - Will probably work on other devices but YMMV
+  - Will probably work on other devices on the same version of Windows but YMMV
 
 # What this does
 - Installs a wifi profile from a flash drive
